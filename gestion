@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MarketingPro - Tu Aliado Digital</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Hero -->
+  <section class="bg-blue-600 text-white py-20 px-6 text-center">
+    <h1 class="text-4xl font-bold mb-4">Impulsa tu negocio con MarketingPro</h1>
+    <p class="text-lg mb-6">La herramienta definitiva para gestionar tus campañas digitales.</p>
+    <a href="#contacto" class="bg-white text-blue-600 px-6 py-3 rounded font-semibold hover:bg-gray-100 transition">
+      Prueba Gratis
+    </a>
+  </section>
+
+  <!-- Beneficios -->
+  <section class="py-16 px-6 max-w-5xl mx-auto grid md:grid-cols-3 gap-10 text-center">
+    <div>
+      <h3 class="text-xl font-bold mb-2">Automatiza</h3>
+      <p>Ahorra tiempo con flujos de marketing automatizados.</p>
+    </div>
+    <div>
+      <h3 class="text-xl font-bold mb-2">Analiza</h3>
+      <p>Visualiza el rendimiento de tus campañas en tiempo real.</p>
+    </div>
+    <div>
+      <h3 class="text-xl font-bold mb-2">Convierte</h3>
+      <p>Optimiza tus leads con formularios inteligentes.</p>
+    </div>
+  </section>
+
+  <!-- Formulario -->
+  <section id="contacto" class="bg-gray-100 py-16 px-6 text-center">
+    <h2 class="text-2xl font-bold mb-4">Suscríbete para acceder a la demo</h2>
+    <form class="max-w-md mx-auto">
+      <input type="email" placeholder="Tu correo electrónico" class="w-full p-3 mb-4 rounded border" required />
+      <button type="submit" class="w-full bg-blue-600 text-white p-3 rounded hover:bg-blue-700">
+        Solicitar acceso
+      </button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-sm text-gray-500">
+    © 2025 MarketingPro. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
